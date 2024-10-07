@@ -8,6 +8,6 @@ contenedores Docker para gestionar el entorno de desarrollo.
 ## Integrantes 
 | Apellidos y nombres | Rol |
 |---------------------|-----|
-|Chavez Apaza, Marcos Alberto |        |
-|Ñaupari Cmarena, Julio Armando |        |
-|Villaverde Pacheco, Fabiola Karina  |        |
+|Chavez Apaza, Marcos Alberto |    Programador    |
+|Ñaupari Cmarena, Julio Armando |  Programador      |
+|Villaverde Pacheco, Fabiola Karina  |    Programador    |
