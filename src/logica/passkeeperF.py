@@ -183,12 +183,14 @@ class Controlador:
 class Encriptador:
     @staticmethod
     def encriptar(data: str) -> str:
-        """Método simple para encriptar datos (puede mejorarse)."""
+        """Metodo simple para encriptar datos(puede mejorarse) """
+
         return ''.join(chr(ord(char) + 3) for char in data)  # Ejemplo de cifrado César
 
     @staticmethod
     def desencriptar(encrypted_data: str) -> str:
-        """Método simple para desencriptar datos (debe coincidir con el método de encriptado)."""
+        """Metodo simple para desencriptar datos (debe coincidir con el metodo de encriptado)"""
+
         return ''.join(chr(ord(char) - 3) for char in encrypted_data)
 
 
