@@ -23,8 +23,8 @@ contenedores Docker para gestionar el entorno de desarrollo.
 |                                               |
 |    git clone https://github.com/usuario/nombre_repositorio.git   |
 |                                    |
-| 2. Ver las ramas remotas disponibles|
-|---------------------|
+| 2. Ver las ramas remotas disponibles |
+|-------------------------------------|
 |Después de clonar el repositorio, puedes listar todas las ramas remotas con el siguiente comando: |
 |                      |
 |    git branch -r     |
@@ -36,8 +36,8 @@ contenedores Docker para gestionar el entorno de desarrollo.
 |    origin/main     |
 |    origin/release/passkeeper2  |
 |                |
-| 3. Crear ramas locales a partir de ramas remotas|
-|---------------------|
+| 3. Crear ramas locales a partir de ramas remotas |
+|--------------------------------------------------|
 |Para trabajar con las ramas remotas, primero debes crear ramas locales que rastreen su correspondiente rama remota. Usa el comando 'git checkout --track' seguido del nombre de la rama| ||remota.                                  |
 |                                                        |
 |    git checkout --track origin/<nombre_de_la_rama>     |
@@ -47,15 +47,15 @@ contenedores Docker para gestionar el entorno de desarrollo.
 |   git checkout --track origin/develop |
 |                            |
 |Esto crea una nueva rama local llamada 'develop' que rastrea la rama remota 'origin/develop'.|
-| 4. Verificar las ramas locales disponibles|
-|---------------------|
+| 4. Verificar las ramas locales disponibles |
+|--------------------------------------------|
 |Para listar todas las ramas locales en tu repositorio, usa el siguiente comando:|
 |     |
 |   git branch      |
 |                       |
 |Esto mostrará una lista de ramas locales y marcará con un asterisco (*) la rama actualmente activa.  |
-| 5. Cambiar entre ramas locales      |
-|---------------------|
+| 5. Cambiar entre ramas locales |
+|--------------------------------|
 |Para cambiar a una rama específica, usa el siguiente comando:   |
 |                                             |
 |    git checkout <nombre_de_la_rama>        |
@@ -66,7 +66,7 @@ contenedores Docker para gestionar el entorno de desarrollo.
 |                             |
 |Esto cambiará el contenido de tu carpeta local para reflejar el estado de esa rama.|
 | 6. Manejo de errores comunes |
-|---------------------|
+|------------------------------|
 |Si cometes un error al escribir un comando, Git te proporcionará sugerencias para corregirlo. Por ejemplo, si escribes 'git brach' en lugar de 'git branch', verás un mensaje como este: |
 |                                                 |
 |    git: 'brach' is not a git command. See 'git --help'.   |
@@ -75,8 +75,8 @@ contenedores Docker para gestionar el entorno de desarrollo.
 |        branch                      |
 |                                        |
 |Corrige el comando y vuelve a ejecutarlo.|
-| 7. Para el funcionamiento de la app|
-|---------------------|
+| 7. Para el funcionamiento de la app |
+|-------------------------------------|
 |Estando en la rama realease/passkeeper, la cual es la versión final.|
 |                           |
 |Nos dirigimos al terminal y instalamos :|
