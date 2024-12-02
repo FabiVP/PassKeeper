@@ -14,8 +14,8 @@ contenedores Docker para gestionar el entorno de desarrollo.
 
 ## Instrucciones
 | 1. Clonar el repositorio |
-| ---------------------|-----|
-|Para comenzar a trabajar con un repositorio remoto, debes clonarlo en tu máquina local. Usa el siguiente comando reemplazando '<URL_DEL_REPOSITORIO>' por la URL del repositorio remoto.|
+| --------------------- |
+| Para comenzar a trabajar con un repositorio remoto, debes clonarlo en tu máquina local. Usa el siguiente comando reemplazando '<URL_DEL_REPOSITORIO>' por la URL del repositorio remoto.|
 |                                    |
 |    git clone <URL_DEL_REPOSITORIO> |
 |                   |
